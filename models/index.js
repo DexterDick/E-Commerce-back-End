@@ -17,13 +17,13 @@ Product.belongsTo(Category, {
     });
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
-    through: "productTag",
+    through: ProductTag,
     foreignKey: "product_id",
     onDelete: "CASCADE",
 });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(ProductTag, {
-    through: "productTag",
+    through: ProductTag,
     foreignKey: "tag_id",
     onDelete: "CASCADE",
 });
