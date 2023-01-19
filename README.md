@@ -2,9 +2,9 @@
 
 ## Decription
 
-The motivation for this project was to build and e-commerce back end for a e-commerce website that uses the latest technologies to help the company stay competitive with other e-commerce companies.
+The motivation for this project was to build a e-commerce back end for a e-commerce website that uses the latest technologies to help the company stay competitive with other e-commerce companies.
 
-The project was using Express.js API using Sequelize to interact with a MySQL database through associations:
+The project uses Express.js API using Sequelize to interact with a MySQL database through associations:
 
 -   Product database belongs to Category database, as a category can have multiple products but a product can only belong to one category.
 
@@ -18,7 +18,7 @@ The project was using Express.js API using Sequelize to interact with a MySQL da
 
 [![Walkthrough video](./images/Screenshot_1png)](https://drive.google.com/file/d/1fQD1GzYAFM8HZSkbYldlqLAmnjwb8q5c/view "E-Commerce Back End walkthrough")
 
-## Screeenshots
+## Screenshots
 
 ![Tag route](./images/Screenshot_2.png)
 
@@ -28,7 +28,7 @@ The project was using Express.js API using Sequelize to interact with a MySQL da
 
 ## Usage
 
-Please run the following commands in the project root of project:
+Please run the following commands in the project root of the project:
 
 1. npm i
 2. mysql -u root -p
